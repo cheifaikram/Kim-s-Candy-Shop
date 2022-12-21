@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; 
+    border:none;
+    text-decoration: none;
+    text-transform: capitalize;
 }
 
 html{
@@ -48,7 +53,7 @@ top: 10px;
     padding:0 1.5rem;
     color:rgb(0, 0, 0);
     position: relative;
-    left: 70rem;   
+    left: 60rem;   
 }
 
 .head .navbar a:hover{
@@ -59,9 +64,10 @@ top: 10px;
     display: flex;
     align-items: center;
     width: auto;
+    min-height: 86vh;
     background-size: cover;
     background-color: #F69191;
-    padding: 3%;
+    padding: 5%;
     padding-bottom: 0;
     
 }
@@ -75,9 +81,25 @@ top: 10px;
 
 .home .desc{
     flex: 60%;
-    font-size: large;
-    font-weight: bold;
-    border: 1px solid black;
-    padding: 15%;
+    padding-bottom: 15%;
     padding-top: 0%;
+    padding-right: 5%;
+    line-height: 1.8;   
 }
+
+.home .desc h1{
+    font-size: 40px;
+}
+
+.home .desc h3 {
+    color: #870800;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.home .desc p {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
