@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
 }
 
 html{
@@ -25,23 +24,60 @@ section{
     background:#F69191;
 }
 
-header{
-    position: fixed;
+.head{
+    position:sticky;
     top:0; left:0; right:0;
     background:#fff;
-    padding:2rem 9%;
+    padding:3rem 9%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-
-.logo {/* Kim’s Candy Shop */    
+.head .logo {   
 content: url("images/logo.webp");
-width: 150px;
-height: 120px;
+width: 80px;
+height: 60px;
 position: absolute;
 left: 50px;
 top: 10px;
+}
 
+.head .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem;
+    color:rgb(0, 0, 0);
+    position: relative;
+    left: 70rem;   
+}
+
+.head .navbar a:hover{
+    color:#F69191;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    width: auto;
+    background-size: cover;
+    background-color: #F69191;
+    padding: 3%;
+    padding-bottom: 0;
+    
+}
+
+.home  .img{
+    flex: 40%;
+    height: 450px;
+    width: 400px;
+    content: url(images/loli.png);
+}
+
+.home .desc{
+    flex: 60%;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 15%;
+    padding-top: 0%;
 }
