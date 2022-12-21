@@ -104,26 +104,48 @@ top: 10px;
 
 .about_us{
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     width: auto;
     min-height: 86vh;
+    padding-top: 0%;
+    margin: 0 5%;
 }
+
 .about_us .gif {
-    flex: 50%;   
+    flex: 50%;  
+    content: url(images/gif.gif); 
+    min-height: 200px;
+    min-width: 50px;
+    margin-right: 5%; 
+    padding-top: 0%;
+    margin-top: 0%;
+
 }
 
 .about_us .chose {
     flex: 50%;
+    float:inline-start;
 }
 
-.about_us .chose h3 {
+.about_us .chose h1 {
     color: black;
+    line-height: 1.8;
     font-size: 24px;
-    font-weight: normal;
 }
 
-.about_us .chose span{
+.about_us .chose h1 span{
     color: #870800;
-    font-size: 24px;
+    
+}
+.about_us .chose p {
+    font-size: 14px;
     font-weight: normal;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.about_us .container{
+    display: flex;
+    align-items:flex-start;
+    width: auto;   
 }
