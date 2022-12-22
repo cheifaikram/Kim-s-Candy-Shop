@@ -106,7 +106,7 @@ top: 10px;
     display: flex;
     align-items:flex-start;
     width: auto;
-    min-height: 86vh;
+    min-height: auto;
     padding-top: 0%;
     margin: 0 5%;
     flex-direction: column;
@@ -139,8 +139,6 @@ top: 10px;
     width: auto;
     width:100%;
     height: auto;
-    padding-top: 3%;
-    padding-bottom: 3%;
 }
 
 /*For images & h1 & p in container*/
@@ -206,8 +204,8 @@ top: 10px;
     background-color: #F69191;
     color: black;
     padding-top: 3%;
-    padding-bottom: 3%;
     border: 2px solid black;
+    padding-bottom: 3%;
 }
 
 /* PRODUCTS */
@@ -216,10 +214,10 @@ top: 10px;
     display: flex;
     align-items:flex-start;
     width: auto;
-    min-height: 86vh;
+    min-height: auto;
     padding-top: 0%;
     margin: 0 5%;
-    flex-direction: column;
+    flex-direction: column; 
 }
 .product .product_container{
     display: flex;
@@ -228,8 +226,7 @@ top: 10px;
     width:100%;
     height: auto;
     padding-top: 3%;
-    padding-bottom: 3%;  
-    border: 1px solid red;   
+    padding-bottom: 1%; 
 }
 
 /* PRODUCT 1 2 3 in one line */
@@ -238,7 +235,6 @@ top: 10px;
     background-color: white;
     color: black;
     margin-right: 3%;
-
     padding-top: 3%;
     padding-bottom: 3%;
     border: 2px solid black;
@@ -271,4 +267,52 @@ top: 10px;
     height: 250px;   
 }
 
+/* REVIEWS */
+.container_review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.container_review .review {
+    width: calc(100% / 3);
+    height: auto;
+}
+
+.container_review .review .star {
+    color:#F69191;
+    font-size: 2rem;
+}
+
+.container_review .review .quote {
+    position: absolute;
+    bottom:3rem; right:3rem;
+    font-size: 6rem;
+    color:#eee;
+}
+
+.container_review .review .p {
+    font-size: 2rem;
+    color:#333;
+} 
+
+
+.container_review .review .user {
+    display: flex;
+    align-items: center;
+}
+
+.container_review .review .user .img {
+    height:6rem;
+    width:6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.container_review .review .user .h3 {
+    color:#999;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+}
