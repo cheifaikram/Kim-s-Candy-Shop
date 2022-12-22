@@ -66,7 +66,7 @@ top: 10px;
     width: auto;
     min-height: 86vh;
     background-size: cover;
-    background-color: #F69191;
+    background-color: rgb(255, 232, 230);
     padding: 5%;
     padding-bottom: 0;
     
@@ -168,7 +168,7 @@ top: 10px;
 
 .about_us .container .delivery{
     width: 25%;
-    background-color: #F69191;
+    background-color: rgb(255, 232, 230);
     color: black;
     margin-right: 6%;
     padding-top: 3%;
@@ -179,7 +179,7 @@ top: 10px;
 /*RETURN*/
 .about_us .container .return{
     width: 25%;
-    background-color: #F69191;
+    background-color: rgb(255, 232, 230);
     color: black;
     margin-right: 6%;
     padding-top: 3%;
@@ -190,7 +190,7 @@ top: 10px;
 /*GIFT*/
 .about_us .container .gift{
     width: 25%;
-    background-color: #F69191;
+    background-color: rgb(255, 232, 230);
     color: black;
     margin-right: 6%;
     padding-top: 3%;
@@ -201,7 +201,7 @@ top: 10px;
 /*PAYMENT*/
 .about_us .container .payment{
     width: 25%;
-    background-color: #F69191;
+    background-color:rgb(255, 232, 230);
     color: black;
     padding-top: 3%;
     border: 2px solid black;
@@ -224,9 +224,7 @@ top: 10px;
     align-items:flex-start;
     width: auto;
     width:100%;
-    height: auto;
-    padding-top: 3%;
-    padding-bottom: 1%; 
+    height: auto; 
 }
 
 /* PRODUCT 1 2 3 in one line */
@@ -238,7 +236,6 @@ top: 10px;
     padding-top: 3%;
     padding-bottom: 3%;
     border: 2px solid black;
-    
 }
 
 .product .product_container .prod1 img{
@@ -267,16 +264,24 @@ top: 10px;
     height: 250px;   
 }
 
-/* REVIEWS */
-.container_review{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.space{
+    padding-bottom: 3%;
 }
 
-.container_review .review {
+/* REVIEWS */
+.container_review {
+    display: flex;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+.container_review .review  {
     width: calc(100% / 3);
     height: auto;
+    border: 2px solid #F69191;
+    padding: 3%;
+    border-radius: 10px;
+    margin-right: 2%;
 }
 
 .container_review .review .star {
@@ -284,35 +289,106 @@ top: 10px;
     font-size: 2rem;
 }
 
-.container_review .review .quote {
-    position: absolute;
-    bottom:3rem; right:3rem;
-    font-size: 6rem;
-    color:#eee;
-}
-
-.container_review .review .p {
-    font-size: 2rem;
+.container_review .review p {
+    font-size: 15px;
     color:#333;
+    padding:6% 0%;  
 } 
-
 
 .container_review .review .user {
     display: flex;
     align-items: center;
+    padding: 0%;
 }
 
-.container_review .review .user .img {
-    height:6rem;
-    width:6rem;
+.container_review .review .user img {
+    height:50px;
+    width: 50px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 1rem;
 }
 
-.container_review .review .user .h3 {
-    color:#999;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    padding-top: 2rem;
+.container_review .review .user .user_info{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container_review .review .user .user_info h3 {
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: left;
+}
+
+.container_review .review .user .user_info p {
+    font-size: 12px;
+    color:#333;
+    padding:3% 0%;  
+}
+
+/* CONTACT US */
+.contact{
+    display: flex;
+    align-items:flex-start; 
+    width: auto;
+    min-height: auto;
+    padding-top: 0%;
+    margin: 0 5%;
+    padding-bottom:5%;
+}
+
+.contact .form {
+    width: 50%;
+    background-color: white;
+    border: 1px solid #F69191;
+    border-radius: 10px;
+    height: auto;
+    padding: 3%;
+}
+
+.contact img {
+    width: 50%;
+    height: auto;
+    margin-left: 3%;
+}
+
+.contact .form input[type=text], textarea{
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #F69191;
+    border-radius: 10px;
+}
+
+.contact .form input[type=text]:focus {
+    background-color: #F69191;
+    color: white;
+    border: 2px solid  black;
+}
+
+.contact .form textarea:focus {
+    background-color: #F69191;
+    color: white;
+    border: 2px solid  black;
+}
+
+
+.contact .form .btn {
+    background-color: #F69191;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact .form .btn:hover {
+    background-color: white;
+    color: black;
+    border:2px solid #F69191;
 }
