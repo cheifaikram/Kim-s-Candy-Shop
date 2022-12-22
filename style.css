@@ -229,7 +229,7 @@ top: 10px;
     height: auto;
     padding-top: 3%;
     padding-bottom: 3%;  
-    border: 1px solid;   
+    border: 1px solid red;   
 }
 
 /* PRODUCT 1 2 3 in one line */
@@ -237,7 +237,8 @@ top: 10px;
     width: 25%;
     background-color: white;
     color: black;
-    margin-right: 6%;
+    margin-right: 3%;
+
     padding-top: 3%;
     padding-bottom: 3%;
     border: 2px solid black;
