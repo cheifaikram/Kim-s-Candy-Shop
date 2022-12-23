@@ -224,7 +224,6 @@ top: 10px;
     width:100%; 
 }
 
-/* PRODUCT 1 2 3 4 in one line */
 .product .product_container .prod{
     width: 25%;
     height: auto;
@@ -242,6 +241,7 @@ top: 10px;
     width: 100%;
     height: auto;
     padding-bottom: 5%;
+    border: 1px solid white;
 }
 
 .product .product_container .prod .image img{
@@ -252,6 +252,7 @@ top: 10px;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 3%;
 }
 
 .product .product_container .prod .image:hover img{
@@ -328,6 +329,23 @@ text-align: center;
     text-decoration: line-through;
   
 }
+
+.product .product_container .prod .image .red_container{
+    background-color: #E86464;
+    border: 1px solid black;
+    border-radius: 5%;
+    float: left;
+    width: 50px;
+    height: 30px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5%;
+    padding-top: 3%;  
+    font-weight: bold; 
+}
+
+
 
 
 .space{
