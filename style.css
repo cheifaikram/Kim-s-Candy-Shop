@@ -227,7 +227,7 @@ top: 10px;
 .product .product_container .prod{
     width: 25%;
     height: auto;
-    background-color: white;
+    background-color: rgb(255, 232, 230);
     color: black;
     padding-top: 3%;
     border: 2px solid black;
