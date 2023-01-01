@@ -498,8 +498,9 @@ text-align: center;
 
     .logo{
         position: absolute;
-        top: 30px;
-        left:30px;
+        top: 35px;
+        left:25px;
+        font-size: 22px;
     }
 
     .nav-links{
@@ -507,7 +508,7 @@ text-align: center;
         width: 100%;
         height: 100vh;
         justify-content: center;
-        background-color: rgb(71, 71, 143);
+        background-color:#E86464;
         margin-top: -900px;
         transition: all 0.5s ease;
     }
@@ -525,29 +526,26 @@ text-align: center;
     
 .home{
     flex-direction: column; 
+    margin-top: 25%;
     
 }
 
 .home  .img{
-    content: url(images/loli.png);
-    height: 450px;
-    width: 300px;
-    border: 1px solid black;
-    opacity: 0.6;
+    display: none;
 }
 
 .home .desc{
-    padding-bottom: 15%;
-    padding-top: 15%;
-    padding-right: 10%;
-    line-height: 1.8;
-    border: 1px solid red;  
-    margin: 10% 0;
+    line-height: 1.8;  
+    background-image: url("images/mobile_loli.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    margin: 0%;
+    padding: 0%; 
 }
 
 .home .desc h1{
     font-size: 40px;
-    border: 1px solid yellow;
 }
 
 .home .desc h3 {
