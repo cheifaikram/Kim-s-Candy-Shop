@@ -9,57 +9,61 @@
     text-transform: capitalize;
 }
 
-html{
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-    scroll-padding-top: 6rem;
+body, html{
     overflow-x: hidden;
 }
 
-section{
-    padding:2rem 9%;
+a{
+    text-decoration: none;
 }
 
+.navbar{
+    position:relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color:black;
+    background-color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-links{
+    display: flex;
+    align-items:center;
+}
+
+.nav-links li {
+    margin: 0 30px;
+}
+
+.active{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.menu-btn{
+    position:absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/* between each title */
 .heading{
     text-align: center;
-    font-size: 4rem;
+    font-size: 2rem;
     color:black;
     padding:1rem;
     margin:2rem 5%;
     background:#F69191;
-    
-}
-
-.head{
-    position:sticky;
-    top:0; left:0; right:0;
-    background:#fff;
-    padding:3rem 9%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100vw;
-}
-
-.head .logo {   
-content: url("images/logo.webp");
-width: 80px;
-height: 60px;
-position: absolute;
-left: 50px;
-top: 10px;
-}
-
-.head .navbar a{
-    font-size: 2rem;
-    padding:0 1.5rem;
-    color:rgb(0, 0, 0);
-    position: relative;
-    left: 60rem;   
-}
-
-.head .navbar a:hover{
-    color:#F69191;
+    border-radius: 10px;
 }
 
 .home{
@@ -133,6 +137,7 @@ top: 10px;
     font-weight: normal;
     text-align: justify;
     line-height: 1.8;
+    margin-bottom: 2%;
 }
 
 .about_us .container{
@@ -152,9 +157,8 @@ top: 10px;
     height: 70px;
 }
 
-.about_us .container h1 {
+.about_us .container h2 {
     color: black;
-    size: 20px;
     text-align: center;
 }
 
@@ -244,6 +248,7 @@ top: 10px;
     height: auto;
     padding-bottom: 5%;
     border: 1px solid rgb(255, 232, 230);
+
 }
 
 .product .product_container .prod .image img{
@@ -337,18 +342,16 @@ text-align: center;
     border: 1px solid black;
     border-radius: 5%;
     float: left;
-    width: 50px;
+    width: 60px;
     height: 30px;
     color: black;
     text-align: center;
     text-decoration: none;
     margin-left: 5%;
-    padding-top: 3%;  
-    font-weight: bold; 
+    padding-top: 3%;
+    font-size: 12px;
+    font-weight: 700;
 }
-
-
-
 
 .space{
     padding-bottom: 3%;
@@ -483,6 +486,46 @@ text-align: center;
     border:2px solid #F69191;
 }
 
+/* MOBILE */
 @media only screen and (max-width:700px) {
+    .menu-btn{
+        display: block;
+    }
     
+    .navbar{
+        padding: 0;
+    }
+
+    .logo{
+        position: absolute;
+        top: 30px;
+        left:30px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: rgb(71, 71, 143);
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+
+    .nav-links li {
+        margin: 30px auto;
+    }
+
+    .mobile-menu{
+        margin-top:0;
+        border-bottom-left-radius:30%;
+    }
 }
+
+/* ANIMATION */
+.ctn:hover{
+    background-color: white;
+    color: rgb(71, 71, 143);
+}
+
+
