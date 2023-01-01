@@ -365,7 +365,7 @@ text-align: center;
 .container_review {
     display: flex;
     align-items: center;
-    padding: 0% 5%;
+    margin: 0 5%;
 }
 
 .container_review .review  {
@@ -374,7 +374,6 @@ text-align: center;
     border: 2px solid #F69191;
     padding: 3%;
     border-radius: 10px;
-    margin-right: 2%;
 }
 
 .container_review .review .star {
@@ -384,14 +383,15 @@ text-align: center;
 
 .container_review .review p {
     font-size: 15px;
-    color:#333;
-    padding:6% 0%;  
+    color:rgb(0, 0, 0);
+    padding:6% 0%; 
+    
 } 
 
 .container_review .review .user {
     display: flex;
     align-items: center;
-    padding: 0%;
+    padding: 0%; 
 }
 
 .container_review .review .user img {
