@@ -6,5 +6,5 @@
 
 <h2> live demo </h2>
 <ul>
-<li>Live Site URL:  <a href="https://majestic-vacherin-bec266.netlify.app/"> Live Demo </a></li>
+<li>Live Site URL:  <a href="https://merry-belekoy-47b1e0.netlify.app/"> Live Demo </a></li>
 </ul>
