@@ -604,7 +604,6 @@ text-align: center;
 
 
     /* PRODUCT*/
-    
     .product .product_container{
         flex-direction: column;
     }
@@ -624,18 +623,53 @@ text-align: center;
     .space_prod{
         padding-bottom: 3%;
     }
-    
-    
+
+    /* REVIEWS */
+
+    .container_review {
+        flex-direction: column;
     }
     
+    .container_review .review  {
+        width: 100%;
+    }
+    
+    .container_review .review .star {
+        text-align: center;
+    }
+    
+    .container_review .review p {
+        padding:6% 2%;
+        text-align: center; 
+        
+    } 
+    
+    .container_review .review .user {
+        display: flex;
+        align-items: center;
+        margin: auto 10%; 
+    }
+    
+    .container_review .review .user img {
+        margin:auto 5%;
+    }
+    
+    .container_review .review .user .user_info p {
+        text-align:start;  
+    }
+        
+    
+}
+        
     /* ANIMATION */
     .ctn:hover{
         background-color: white;
         color: rgb(71, 71, 143);
     }
     
+        
+        
+        
     
     
     
-
-
