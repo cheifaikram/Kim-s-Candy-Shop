@@ -598,16 +598,19 @@ text-align: center;
 
 .about_us .container .delivery{
     width: 100%;
+    margin-bottom: 5%;
 }
 
 /*RETURN*/
 .about_us .container .return{
     width: 100%;
+    margin-bottom: 5%;
 }
 
 /*GIFT*/
 .about_us .container .gift{
     width: 100%;
+    margin-bottom: 5%;
 }
 
 /*PAYMENT*/
