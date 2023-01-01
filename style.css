@@ -601,6 +601,29 @@ text-align: center;
     .about_us .container .payment{
         width: 100%;
     }
+
+
+    /* PRODUCT*/
+    
+    .product .product_container{
+        flex-direction: column;
+    }
+
+    .product .product_container .prod{
+        width: 100%;
+        height: auto;
+    }
+        
+    .product .product_container .prod .image .red_container{
+        width: 80px;
+        height: 40px;
+        margin-left: 5%;
+        margin-top: 2%;   
+    }
+
+    .space_prod{
+        padding-bottom: 3%;
+    }
     
     
     }
