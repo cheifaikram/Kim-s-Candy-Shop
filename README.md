@@ -3,7 +3,6 @@
 <ul>
 <li>Live Site URL:  <a href="https://merry-belekoy-47b1e0.netlify.app/"> Live Demo </a></li>
 </ul> 
-
 <h2>Screenshots</h2>
 <h3>1- DESKTOP</h3>
 <img SRC="images/desktop.png"  style="width:300px; height:800px;">
