@@ -5,7 +5,7 @@
 </ul> 
 <h2>Screenshots</h2>
 <h3>1- DESKTOP</h3>
-<img SRC="images/desktop.png"  style="width:300px; height:800px;">
+<img SRC="images/desktop.png"  style="width:300px; height:850px;">
 <h3>2- MOBILE</h3>
 <img SRC="images/mobile.png"  style="width:300px; height:2500px;">
 
