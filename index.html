@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
-
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Website design</title>
 </head>
 <body>
@@ -338,6 +338,19 @@
     menubtn.addEventListener('click',()=>{
         navlinks.classList.toggle('mobile-menu')
     })
+
+
+    ScrollReveal({
+        //reset: true,
+        distance: '60px',
+        duration: 3500,
+        delay: 400
+      });
+
+      //target elements, and specify options to create reveal animations
+    ScrollReveal().reveal('.heading', { delay: 400, origin: 'top' });
+    ScrollReveal().reveal('.chose', { delay: 500, origin: 'right' });
+    ScrollReveal().reveal('.container', { delay: 500, origin: 'bottom' });
 </script> 
 
 </body>
